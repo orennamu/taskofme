@@ -1,0 +1,902 @@
+[
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_otgubun01.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\otgubun01.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_layout_popup.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\layout_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sort.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sort.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_where04.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\where04.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_calendar4x.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\calendar4x.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_state05.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\state05.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_memd_layout.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\memd_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\xml_widget5x2_calendar.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\xml\\widget5x2_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_27.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_27.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_wisesay.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\wisesay.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_19.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_19.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_ff.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\arrow_ff.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_account_list.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\ic_menu_account_list.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_input_task.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\input_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_noti.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\noti.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backimg.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\backimg.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_clockpicker.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\clockpicker.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dot3.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\dot3.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\xml_widget4x2_calendar.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\xml\\widget4x2_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_wise_layout.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\wise_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_where05.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\where05.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\xml_config.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\xml\\config.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_26.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_26.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_default_pressed.9.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\btn_default_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\xml_ido_provider2x2.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\xml\\ido_provider2x2.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_menu_others.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\menu_others.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\xml_alarm_prefs.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\xml\\alarm_prefs.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rect_blue.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\rect_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_backup_manager.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\backup_manager.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_others.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\others.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clock_hour.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\clock_hour.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_progress.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\progress.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_state04.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\state04.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_simple_layout.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\simple_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_a_round_trans.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\a_round_trans.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_layout.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\main_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clockgoog_dial.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\clockgoog_dial.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_digital_clock.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\digital_clock.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_circle_white.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\btn_circle_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_default_disabled.9.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\btn_default_disabled.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\xml_ido_provider2x3.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\xml\\ido_provider2x3.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\xml_widget1x1.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\xml\\widget1x1.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_25.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_25.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_state07.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\state07.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\xml_widget2x1.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\xml\\widget2x1.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_widget2x1.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\widget2x1.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_default_normal.9.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\btn_default_normal.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_others.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\others.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clockgoog_minute.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\clockgoog_minute.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_login.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\ic_menu_login.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_widget1x1.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\widget1x1.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_widjet_sub.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\round_widjet_sub.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\anim_layout_anim.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\anim\\layout_anim.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_schedule_month_layout.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\schedule_month_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_more.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\more.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_alarm_alert.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\alarm_alert.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clock_dial.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\clock_dial.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_widjet.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\round_widjet.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_18.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_18.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\xml_ido_provider2x4.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\xml\\ido_provider2x4.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_scale.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\anim\\slide_scale.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_23.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_23.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_replay.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\replay.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\xml_widget3x3_calendar.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\xml\\widget3x3_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_08.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_08.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_dn.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\arrow_dn.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\xml_widget5x4_calendar.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\xml\\widget5x4_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_sticker_dlg.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\sticker_dlg.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lefttop.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\lefttop.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_circle_darkblue.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\btn_circle_darkblue.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_popup.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\activity_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_state01.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\state01.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_widget4x2_calendar.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\widget4x2_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_hline.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\hline.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clockdroid2_minute.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\clockdroid2_minute.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_16.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_16.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rect_line_trans.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\rect_line_trans.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_lypopup.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\lypopup.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_up.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\arrow_up.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rect_white_p2.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\rect_white_p2.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_where02.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\where02.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_clock_droids.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\clock_droids.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_calendar.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\calendar.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_mark_pressed.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\ic_menu_mark_pressed.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alram3.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\alram3.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_17.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_17.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_star.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\star.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alram2.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\alram2.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_state00.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\state00.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_title.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\title.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_dialog_sort.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\dialog_sort.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_09.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_09.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_sub1_top_right.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\sub1_top_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_main_top_right.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\main_top_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_memo.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\memo.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rect_darkblue_pressed.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\rect_darkblue_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\xml_widget5x5_calendar.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\xml\\widget5x5_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_clock_googly.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\clock_googly.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_today.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\ic_menu_today.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_where03.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\where03.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_rect_blue.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\btn_rect_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_edit_modify.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\edit_modify.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_circle_blue.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\btn_circle_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_alram.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\alram.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clockdroid2_dial.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\clockdroid2_dial.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_main.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_24.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_24.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_appwidget_configure.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\appwidget_configure.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_11.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_11.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_wline.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\wline.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_chk.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\btn_chk.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_mynoti.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\mynoti.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rect_blue_pressed.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\rect_blue_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\raw_in_call_alarm.ogg.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\raw\\in_call_alarm.ogg"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_pf.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\arrow_pf.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_address_dlg.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\address_dlg.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clock_minute.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\clock_minute.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_state06.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\state06.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_left.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\anim\\slide_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_others_layout.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\others_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_round_widjet_title.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\round_widjet_title.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_list_popup.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\list_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_rect_darkblue.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\btn_rect_darkblue.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rect_trans.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\rect_trans.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_ido_provider.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\ido_provider.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_na_dojang.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\na_dojang.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_04.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_04.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_trans.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\btn_trans.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_info.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\info.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clockdroid2_hour.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\clockdroid2_hour.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_darkblue_pressed.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\circle_darkblue_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backup.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\backup.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_red.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\circle_red.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_12.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_12.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_default_white.9.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\btn_default_white.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_default_selected.9.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\btn_default_selected.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_20.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_20.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_group_layout.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\group_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_widget4x4_calendar.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\widget4x4_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_white.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\circle_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\xml_widget4x1_calendar.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\xml\\widget4x1_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_default.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\btn_default.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_menu_mark.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\ic_menu_mark.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_03.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_03.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_group.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\group.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_bgicon.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\bgicon.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_left.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\arrow_left.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clockdroids_dial.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\clockdroids_dial.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_delete.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\delete.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_13.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_13.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_02.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_02.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\anim_slide_right.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\anim\\slide_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_10.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_10.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_clock_basic_bw.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\clock_basic_bw.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_alarm_time.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\alarm_time.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_widget4x1_calendar.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\widget4x1_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_a_btn_trans.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\a_btn_trans.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rect_darkblue.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\rect_darkblue.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_arrow_right.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\arrow_right.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_widget4x1_task.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\widget4x1_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_his_view.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\his_view.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_blue.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\circle_blue.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_white_pressed.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\circle_white_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_05.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_05.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_config.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\config.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_white.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\btn_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_buttonshape.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\buttonshape.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_a_round_push.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\a_round_push.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clockgoog_hour.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\clockgoog_hour.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sms.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sms.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_clock_droid2.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\clock_droid2.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_15.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_15.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_time.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\time.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_dialog.9.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\dialog.9.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_panel_separator.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\panel_separator.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_rect_white.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\btn_rect_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_fragment_navigation_drawer.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\fragment_navigation_drawer.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_where01.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\where01.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rect_white.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\rect_white.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_range.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\range.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_righttop.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\righttop.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rect_gray_pressed.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\rect_gray_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_01.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_01.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rect_trans_select.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\rect_trans_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_22.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_22.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_input_mem.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\input_mem.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_his_save.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\his_save.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_blue_pressed.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\circle_blue_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_add.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\add.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\xml_widget4x3_calendar.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\xml\\widget4x3_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_sms_layout.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\sms_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_stat_notify_alarm.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\stat_notify_alarm.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\xml_widget4x4_calendar.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\xml\\widget4x4_calendar.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_07.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_07.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_addr_layout.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\addr_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_tle1.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\tle1.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_00.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_00.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_darkblue.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\circle_darkblue.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_where06.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\where06.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_history_layout.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\history_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_21.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_21.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clockdroids_minute.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\clockdroids_minute.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rect_white_pressed.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\rect_white_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_memday.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\memday.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_voice_record.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\voice_record.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_date2.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\date2.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_leftbottom.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\leftbottom.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_14.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_14.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_group.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\group.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_lock.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\lock.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rightbottom.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\rightbottom.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_sti_06.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\sti_06.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_clockdroids_hour.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\clockdroids_hour.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_oren_add.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\oren_add.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_circle_white_p2.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\circle_white_p2.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_history.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\history.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_rect_trans_pressed.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\rect_trans_pressed.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_where00.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\where00.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\layout_replay.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\layout\\replay.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_others_d.png.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\others_d.png"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\xml_widget4x1_task.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\xml\\widget4x1_task.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_backgr_def.jpg.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\backgr_def.jpg"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\drawable_btn_select.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\drawable\\btn_select.xml"
+    },
+    {
+        "merged": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\build\\intermediates\\res\\merged\\debug\\xml_settings.xml.flat",
+        "source": "C:\\Users\\cjseok\\StudioProjects\\TaskOfMe\\app\\src\\main\\res\\xml\\settings.xml"
+    }
+]

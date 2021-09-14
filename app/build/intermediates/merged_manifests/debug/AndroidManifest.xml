@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.oren.taskofme"
+    android:installLocation="internalOnly"
+    android:versionCode="16"
+    android:versionName="1.1.4" > <!-- android:screenOrientation="nosensor" -->
+    <!--
+	<uses-permission android:name="android.permission.READ_SMS"/>
+	<uses-feature android:name="android.hardware.telephony" android:required="false" />
+	<uses-feature android:name="android.hardware.camera" />
+	<uses-feature android:name="android.hardware.autofocus" />
+    -->
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="26" />
+
+    <uses-permission android:name="android.permission.GET_ACCOUNT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <!-- <uses-permission android:name="android.permission.RECORD_AUDIO"/> -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <!-- <uses-permission android:name="android.permission.CAMERA" /> -->
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE"/> -->
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.wifi"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sms"
+        android:required="false" />
+.
+
+    <!-- <intent-filter> -->
+    <!-- <action android:name="com.oren.action.CLICK" /> -->
+    <!-- </intent-filter> -->
+    <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <permission
+        android:name="com.oren.taskofme.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.oren.taskofme.permission.C2D_MESSAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:testOnly="true" >
+
+        <!-- 광고버젼 -->
+        <activity
+            android:name="com.oren.taskofme.fmain"
+            android:configChanges="keyboardHidden|orientation|screenLayout|locale"
+            android:hardwareAccelerated="true"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.Transparent" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 구매버젼 -->
+        <!-- <activity android:name="com.oren.mainActivity" android:label="@string/app_name" -->
+        <!-- android:launchMode="singleTop" -->
+        <!-- android:theme="@style/Theme.Transparent" android:configChanges="keyboardHidden|orientation"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.MAIN" /> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <!-- <activity android:name=".addTask" -->
+        <!-- android:theme="@android:style/Theme.Translucent.NoTitleBar" android:configChanges="keyboardHidden|orientation|locale"> -->
+        <!-- <intent-filter> -->
+        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name="com.oren.taskofme.Complete"
+            android:configChanges="keyboardHidden|orientation|locale"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.oren.taskofme.widjetConfig"
+            android:configChanges="keyboardHidden|orientation|locale"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.oren.taskofme.fsub1"
+            android:configChanges="keyboardHidden|orientation|locale"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:theme="@style/Theme.Transparent" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.oren.taskofme.history"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name="com.oren.taskofme.others_old"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name="com.oren.taskofme.memo"
+            android:configChanges="orientation|keyboardHidden|locale"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Transparent" >
+        </activity>
+        <activity
+            android:name="com.oren.taskofme.responseActi"
+            android:theme="@android:style/Theme.Translucent" >
+        </activity>
+        <activity android:name="com.oren.taskofme.config" />
+        <activity android:name="com.oren.taskofme.widget.ido_config" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+
+        <!-- 알람 처리  com.oren.taskofme.alarmclock/alarm -->
+        <provider
+            android:name="com.oren.taskofme.alram.AlarmProvider"
+            android:authorities="com.oren.taskofme.alarmclock"
+            android:exported="false" />
+
+        <service
+            android:name="com.oren.taskofme.alram.AlarmKlaxon"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="com.oren.taskofme.alram.alarmclock.ALARM_ALERT" >
+            <intent-filter>
+                <action android:name="com.oren.taskofme.alram.alarmclock.ALARM_ALERT" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="com.oren.taskofme.alram.AlarmReceiver"
+            android:permission="com.oren.taskofme.alram.alarmclock.ALARM_ALERT" >
+            <intent-filter>
+                <action android:name="com.oren.taskofme.alram.alarmclock.ALARM_ALERT" />
+                <action android:name="alarm_killed" />
+                <action android:name="cancel_snooze" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.oren.taskofme.alram.AlarmInitReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.TIME_SET" />
+                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.oren.taskofme.alram.AlarmAlert"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation|locale"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:taskAffinity=""
+            android:theme="@style/alarm_alert" />
+        <activity
+            android:name="com.oren.taskofme.alram.AlarmAlertFullScreen"
+            android:configChanges="orientation|keyboardHidden|keyboard|navigation|locale"
+            android:excludeFromRecents="true"
+            android:launchMode="singleInstance"
+            android:taskAffinity=""
+            android:theme="@android:style/Theme.NoTitleBar" />
+        <activity
+            android:name="com.oren.taskofme.PopupActivity"
+            android:theme="@style/Theme.Transparent" >
+            <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!--
+        <receiver android:name=".util.OneShotAlarm">
+   			<intent-filter>
+   			    <action android:name="android.intent.action.RECEIVE_BOOT_COMPLETED" />
+           		<action android:name="alarmmanager.app.ALARM_SERVICE" />
+        	</intent-filter>
+        </receiver>
+        -->
+        <receiver android:name="com.oren.taskofme.util.BackupAlarm" >
+            <intent-filter>
+                <action android:name="android.intent.action.RECEIVE_BOOT_COMPLETED" />
+                <action android:name="alarmmanager.app.ALARM_SERVICE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.oren.taskofme.widget.widget4x1_task"
+            android:exported="false"
+            android:label="@string/app_name4x1_task" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget4x1_task" />
+        </receiver>
+        <receiver
+            android:name="com.oren.taskofme.widget.widget4x1_calendar"
+            android:exported="false"
+            android:label="@string/app_name4x1_calendar" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget4x1_calendar" />
+        </receiver>
+        <receiver
+            android:name="com.oren.taskofme.widget.widget4x2_calendar"
+            android:exported="false"
+            android:label="@string/app_name4x2_calendar" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget4x2_calendar" />
+        </receiver>
+        <receiver
+            android:name="com.oren.taskofme.widget.widget5x2_calendar"
+            android:exported="false"
+            android:label="@string/app_name5x2_calendar" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget5x2_calendar" />
+        </receiver>
+        <receiver
+            android:name="com.oren.taskofme.widget.widget4x3_calendar"
+            android:exported="false"
+            android:label="@string/app_name4x3_calendar" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="wid4x3.now.CLICK" />
+                <action android:name="wid4x3.pf.CLICK" />
+                <action android:name="wid4x3.ff.CLICK" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget4x3_calendar" />
+        </receiver>
+        <receiver
+            android:name="com.oren.taskofme.widget.widget3x3_calendar"
+            android:exported="false"
+            android:label="@string/app_name3x3_calendar" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="wid3x3.now.CLICK" />
+                <action android:name="wid3x3.pf.CLICK" />
+                <action android:name="wid3x3.ff.CLICK" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget3x3_calendar" />
+        </receiver>
+        <receiver
+            android:name="com.oren.taskofme.widget.widget4x4_calendar"
+            android:exported="false"
+            android:label="@string/app_name4x4_calendar" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="wid4x4.now.CLICK" />
+                <action android:name="wid4x4.pf.CLICK" />
+                <action android:name="wid4x4.ff.CLICK" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget4x4_calendar" />
+        </receiver>
+        <receiver
+            android:name="com.oren.taskofme.widget.widget5x4_calendar"
+            android:exported="false"
+            android:label="@string/app_name5x4_calendar" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="wid5x4.now.CLICK" />
+                <action android:name="wid5x4.pf.CLICK" />
+                <action android:name="wid5x4.ff.CLICK" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget5x4_calendar" />
+        </receiver>
+        <receiver
+            android:name="com.oren.taskofme.widget.widget5x5_calendar"
+            android:exported="false"
+            android:label="@string/app_name5x5_calendar" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="wid5x5.now.CLICK" />
+                <action android:name="wid5x5.pf.CLICK" />
+                <action android:name="wid5x5.ff.CLICK" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget5x5_calendar" />
+        </receiver>
+        <receiver
+            android:name="com.oren.taskofme.widget.widget1x1"
+            android:exported="false"
+            android:label="@string/app_name1x1" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget1x1" />
+        </receiver>
+        <receiver
+            android:name="com.oren.taskofme.widget.widget2x1"
+            android:exported="false"
+            android:label="@string/app_name2x1" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget2x1" />
+        </receiver>
+        <receiver
+            android:name="com.oren.taskofme.widget.ido_provider"
+            android:exported="false"
+            android:label="@string/app_name2x2" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/ido_provider2x2" />
+        </receiver>
+        <receiver
+            android:name="com.oren.taskofme.widget.ido_provider2x3"
+            android:exported="false"
+            android:label="@string/app_name2x3" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/ido_provider2x3" />
+        </receiver>
+        <receiver
+            android:name="com.oren.taskofme.widget.ido_provider2x4"
+            android:exported="false"
+            android:label="@string/app_name2x4" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/ido_provider2x4" />
+        </receiver>
+        <!-- <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/> -->
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent" />
+
+        <!-- Interstitial 광고를 사용하기 위해서는 반드시 이 부분을 추가해야한다. -->
+        <!-- <activity -->
+        <!-- android:name="net.daum.adam.publisher.impl.AdInterstitialActivity" -->
+        <!-- android:configChanges="orientation|keyboardHidden" -->
+        <!-- android:screenOrientation="portrait" /> -->
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity
+            android:name="com.google.android.gms.appinvite.PreviewActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppInvite.Preview" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+
+        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+
+        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+
+        <activity
+            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+            android:excludeFromRecents="true"
+            android:exported="true"
+            android:launchMode="singleInstance"
+            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+             FirebaseMessagingService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.google.android.gms.tagmanager.TagManagerService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+            android:exported="true"
+            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+            <intent-filter>
+                <data android:scheme="tagmanager.c.com.oren.taskofme" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+            android:enabled="true"
+            android:exported="true"
+            android:permission="android.permission.INSTALL_PACKAGES" >
+            <intent-filter>
+                <action android:name="com.android.vending.INSTALL_REFERRER" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <receiver
+            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.oren.taskofme" />
+            </intent-filter>
+        </receiver>
+        <!--
+             FirebaseInstanceIdService performs security checks at runtime,
+             no need for explicit permissions despite exported="true"
+        -->
+        <service
+            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+            android:exported="true" >
+            <intent-filter android:priority="-500" >
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.oren.taskofme.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
+    </application>
+
+</manifest>

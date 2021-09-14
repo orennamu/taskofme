@@ -1,0 +1,1060 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.oren.taskofme"
+4    android:installLocation="internalOnly"
+5    android:versionCode="16"
+6    android:versionName="1.1.4" > <!-- android:screenOrientation="nosensor" -->
+7    <!--
+8	<uses-permission android:name="android.permission.READ_SMS"/>
+9	<uses-feature android:name="android.hardware.telephony" android:required="false" />
+10	<uses-feature android:name="android.hardware.camera" />
+11	<uses-feature android:name="android.hardware.autofocus" />
+12    -->
+13    <uses-sdk
+13-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:40:1-69
+14        android:minSdkVersion="21"
+14-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:40:11-37
+15        android:targetSdkVersion="26" />
+15-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:40:38-67
+16
+17    <uses-permission android:name="android.permission.GET_ACCOUNT" />
+17-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:7:6-71
+17-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:7:23-68
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:8:5-67
+18-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:8:22-64
+19    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+19-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:9:2-76
+19-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:9:19-73
+20    <!-- <uses-permission android:name="android.permission.RECORD_AUDIO"/> -->
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:11:2-77
+21-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:11:19-75
+22    <uses-permission android:name="android.permission.VIBRATE" />
+22-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:12:2-62
+22-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:12:19-60
+23    <!-- <uses-permission android:name="android.permission.CAMERA" /> -->
+24    <uses-permission android:name="android.permission.READ_CALENDAR" />
+24-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:14:2-68
+24-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:14:19-66
+25    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+25-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:15:2-69
+25-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:15:19-67
+26    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+27    <uses-permission android:name="android.permission.WAKE_LOCK" />
+27-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:17:2-65
+27-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:17:19-62
+28    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+28-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:18:2-78
+28-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:18:19-75
+29    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+29-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:19:2-20:41
+29-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:19:19-67
+30    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+30-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:21:2-71
+30-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:21:19-69
+31    <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE"/> -->
+32    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+32-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:23:2-73
+32-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:23:19-70
+33    <uses-permission android:name="com.android.vending.BILLING" />
+33-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:24:2-63
+33-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:24:19-61
+34
+35    <uses-feature
+35-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:26:2-82
+36        android:name="android.hardware.camera"
+36-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:26:16-54
+37        android:required="false" />
+37-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:26:56-80
+38    <uses-feature
+38-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:27:2-85
+39        android:name="android.hardware.autofocus"
+39-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:27:16-57
+40        android:required="false" />
+40-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:27:59-83
+41    <uses-feature
+41-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:28:2-84
+42        android:name="android.hardware.location"
+42-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:28:16-56
+43        android:required="false" />
+43-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:28:58-82
+44    <uses-feature
+44-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:29:2-88
+45        android:name="android.hardware.location.gps"
+45-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:29:16-60
+46        android:required="false" />
+46-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:29:62-86
+47    <uses-feature
+47-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:30:2-80
+48        android:name="android.hardware.wifi"
+48-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:30:16-52
+49        android:required="false" />
+49-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:30:54-78
+50    <uses-feature
+50-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:31:2-85
+51        android:name="android.hardware.telephony"
+51-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:31:16-57
+52        android:required="false" />
+52-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:31:58-82
+53    <uses-feature
+53-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:32:3-80
+54        android:name="android.hardware.sms"
+54-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:32:17-52
+55        android:required="false" />
+55-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:32:54-78
+56.
+57
+58    <!-- <intent-filter> -->
+59    <!-- <action android:name="com.oren.action.CLICK" /> -->
+60    <!-- </intent-filter> -->
+61    <!-- Required by older versions of Google Play services to create GCM registration tokens -->
+62    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+62-->[com.google.android.gms:play-services-gcm:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\56ea86841c34c812d7a118d096bc40f1\play-services-gcm-12.0.1\AndroidManifest.xml:23:5-82
+62-->[com.google.android.gms:play-services-gcm:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\56ea86841c34c812d7a118d096bc40f1\play-services-gcm-12.0.1\AndroidManifest.xml:23:22-79
+63
+64    <uses-feature
+64-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\173786ce03f3bec486404eeef31a2f90\play-services-maps-12.0.1\AndroidManifest.xml:26:5-28:35
+65        android:glEsVersion="0x00020000"
+65-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\173786ce03f3bec486404eeef31a2f90\play-services-maps-12.0.1\AndroidManifest.xml:27:9-41
+66        android:required="true" />
+66-->[com.google.android.gms:play-services-maps:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\173786ce03f3bec486404eeef31a2f90\play-services-maps-12.0.1\AndroidManifest.xml:28:9-32
+67
+68    <permission
+68-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:28:5-30:47
+69        android:name="com.oren.taskofme.permission.C2D_MESSAGE"
+69-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:29:9-63
+70        android:protectionLevel="signature" />
+70-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:30:9-44
+71
+72    <uses-permission android:name="com.oren.taskofme.permission.C2D_MESSAGE" />
+72-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:32:5-79
+72-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:32:22-76
+73
+74    <application
+74-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:42:2-240:19
+75        android:allowBackup="true"
+75-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:42:85-111
+76        android:debuggable="true"
+77        android:hardwareAccelerated="true"
+77-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:42:112-146
+78        android:icon="@drawable/ic_launcher"
+78-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:42:15-51
+79        android:label="@string/app_name"
+79-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:42:52-84
+80        android:testOnly="true" >
+81
+82        <!-- 광고버젼 -->
+83        <activity
+83-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:44:9-51:20
+84            android:name="com.oren.taskofme.fmain"
+84-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:44:19-40
+85            android:configChanges="keyboardHidden|orientation|screenLayout|locale"
+85-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:46:51-121
+86            android:hardwareAccelerated="true"
+86-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:46:122-156
+87            android:label="@string/app_name"
+87-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:44:41-73
+88            android:launchMode="singleTop"
+88-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:45:10-40
+89            android:theme="@style/Theme.Transparent" >
+89-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:46:10-50
+90            <intent-filter>
+90-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:47:13-50:29
+91                <action android:name="android.intent.action.MAIN" />
+91-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:48:17-69
+91-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:48:25-66
+92
+93                <category android:name="android.intent.category.LAUNCHER" />
+93-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:49:17-77
+93-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:49:27-74
+94            </intent-filter>
+95        </activity>
+96        <!-- 구매버젼 -->
+97        <!-- <activity android:name="com.oren.mainActivity" android:label="@string/app_name" -->
+98        <!-- android:launchMode="singleTop" -->
+99        <!-- android:theme="@style/Theme.Transparent" android:configChanges="keyboardHidden|orientation"> -->
+100        <!-- <intent-filter> -->
+101        <!-- <action android:name="android.intent.action.MAIN" /> -->
+102        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+103        <!-- </intent-filter> -->
+104        <!-- </activity> -->
+105        <!-- <activity android:name=".addTask" -->
+106        <!-- android:theme="@android:style/Theme.Translucent.NoTitleBar" android:configChanges="keyboardHidden|orientation|locale"> -->
+107        <!-- <intent-filter> -->
+108        <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+109        <!-- </intent-filter> -->
+110        <!-- </activity> -->
+111        <activity
+111-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:67:9-72:20
+112            android:name="com.oren.taskofme.Complete"
+112-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:67:19-43
+113            android:configChanges="keyboardHidden|orientation|locale"
+113-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:68:70-127
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+114-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:68:10-69
+115            <intent-filter>
+115-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:69:13-71:29
+116                <category android:name="android.intent.category.LAUNCHER" />
+116-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:49:17-77
+116-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:49:27-74
+117            </intent-filter>
+118        </activity>
+119        <activity
+119-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:73:9-78:20
+120            android:name="com.oren.taskofme.widjetConfig"
+120-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:73:19-47
+121            android:configChanges="keyboardHidden|orientation|locale"
+121-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:74:70-127
+122            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+122-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:74:10-69
+123            <intent-filter>
+123-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:69:13-71:29
+124                <category android:name="android.intent.category.LAUNCHER" />
+124-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:49:17-77
+124-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:49:27-74
+125            </intent-filter>
+126        </activity>
+127        <activity
+127-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:79:9-84:20
+128            android:name="com.oren.taskofme.fsub1"
+128-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:79:19-40
+129            android:configChanges="keyboardHidden|orientation|locale"
+129-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:79:74-131
+130            android:label="@string/app_name"
+130-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:79:41-73
+131            android:launchMode="singleTop"
+131-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:80:54-84
+132            android:theme="@style/Theme.Transparent" >
+132-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:80:13-53
+133            <intent-filter>
+133-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:69:13-71:29
+134                <category android:name="android.intent.category.LAUNCHER" />
+134-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:49:17-77
+134-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:49:27-74
+135            </intent-filter>
+136        </activity>
+137        <activity
+137-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:85:9-88:20
+138            android:name="com.oren.taskofme.history"
+138-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:85:19-42
+139            android:configChanges="orientation|keyboardHidden"
+139-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:87:10-60
+140            android:label="@string/app_name"
+140-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:86:13-45
+141            android:theme="@style/Theme.Transparent" >
+141-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:87:61-101
+142        </activity>
+143        <activity
+143-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:89:9-92:20
+144            android:name="com.oren.taskofme.others_old"
+144-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:89:19-45
+145            android:configChanges="orientation|keyboardHidden|locale"
+145-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:90:46-103
+146            android:label="@string/app_name"
+146-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:90:13-45
+147            android:theme="@style/Theme.Transparent" >
+147-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:91:10-50
+148        </activity>
+149        <activity
+149-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:93:9-96:20
+150            android:name="com.oren.taskofme.memo"
+150-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:93:19-39
+151            android:configChanges="orientation|keyboardHidden|locale"
+151-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:94:46-103
+152            android:label="@string/app_name"
+152-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:94:13-45
+153            android:theme="@style/Theme.Transparent" >
+153-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:95:10-50
+154        </activity>
+155        <activity
+155-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:97:9-99:20
+156            android:name="com.oren.taskofme.responseActi"
+156-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:97:19-47
+157            android:theme="@android:style/Theme.Translucent" >
+157-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:98:13-61
+158        </activity>
+159        <activity android:name="com.oren.taskofme.config" />
+159-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:100:9-44
+159-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:100:19-41
+160        <activity android:name="com.oren.taskofme.widget.ido_config" >
+160-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:101:3-103:14
+160-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:101:13-46
+161            <intent-filter>
+161-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:102:7-108
+162                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+162-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:102:22-92
+162-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:102:30-89
+163            </intent-filter>
+164        </activity>
+165
+166        <!-- 알람 처리  com.oren.taskofme.alarmclock/alarm -->
+167        <provider
+167-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:106:3-143
+168            android:name="com.oren.taskofme.alram.AlarmProvider"
+168-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:106:38-90
+169            android:authorities="com.oren.taskofme.alarmclock"
+169-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:106:91-141
+170            android:exported="false" />
+170-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:106:13-37
+171
+172        <service
+172-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:107:3-112:13
+173            android:name="com.oren.taskofme.alram.AlarmKlaxon"
+173-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:107:12-62
+174            android:enabled="true"
+174-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:108:7-29
+175            android:exported="true"
+175-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:108:30-53
+176            android:permission="com.oren.taskofme.alram.alarmclock.ALARM_ALERT" >
+176-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:107:63-130
+177            <intent-filter>
+177-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:109:4-111:20
+178                <action android:name="com.oren.taskofme.alram.alarmclock.ALARM_ALERT" />
+178-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:110:5-76
+178-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:110:13-74
+179            </intent-filter>
+180        </service>
+181
+182        <receiver
+182-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:113:3-119:20
+183            android:name="com.oren.taskofme.alram.AlarmReceiver"
+183-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:113:13-65
+184            android:permission="com.oren.taskofme.alram.alarmclock.ALARM_ALERT" >
+184-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:113:66-133
+185            <intent-filter>
+185-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:114:7-118:26
+186                <action android:name="com.oren.taskofme.alram.alarmclock.ALARM_ALERT" />
+186-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:110:5-76
+186-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:110:13-74
+187                <action android:name="alarm_killed" />
+187-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:116:5-42
+187-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:116:13-40
+188                <action android:name="cancel_snooze" />
+188-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:117:5-43
+188-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:117:13-41
+189            </intent-filter>
+190        </receiver>
+191        <receiver android:name="com.oren.taskofme.alram.AlarmInitReceiver" >
+191-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:120:9-126:14
+191-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:120:19-75
+192            <intent-filter>
+192-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:121:4-125:20
+193                <action android:name="android.intent.action.BOOT_COMPLETED" />
+193-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:122:5-66
+193-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:122:13-64
+194                <action android:name="android.intent.action.TIME_SET" />
+194-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:123:5-60
+194-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:123:13-58
+195                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+195-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:124:5-68
+195-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:124:13-66
+196            </intent-filter>
+197        </receiver>
+198
+199        <activity
+199-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:127:3-128:147
+200            android:name="com.oren.taskofme.alram.AlarmAlert"
+200-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:127:13-62
+201            android:configChanges="orientation|keyboardHidden|keyboard|navigation|locale"
+201-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:128:68-145
+202            android:excludeFromRecents="true"
+202-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:127:63-96
+203            android:launchMode="singleInstance"
+203-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:128:8-43
+204            android:taskAffinity=""
+204-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:128:44-67
+205            android:theme="@style/alarm_alert" />
+205-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:127:97-131
+206        <activity
+206-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:129:3-131:87
+207            android:name="com.oren.taskofme.alram.AlarmAlertFullScreen"
+207-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:129:13-72
+208            android:configChanges="orientation|keyboardHidden|keyboard|navigation|locale"
+208-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:131:8-85
+209            android:excludeFromRecents="true"
+209-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:129:73-106
+210            android:launchMode="singleInstance"
+210-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:130:56-91
+211            android:taskAffinity=""
+211-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:130:92-115
+212            android:theme="@android:style/Theme.NoTitleBar" />
+212-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:130:8-55
+213        <activity
+213-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:132:9-136:20
+214            android:name="com.oren.taskofme.PopupActivity"
+214-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:132:19-48
+215            android:theme="@style/Theme.Transparent" >
+215-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:132:49-89
+216            <intent-filter>
+216-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:69:13-71:29
+217                <category android:name="android.intent.category.LAUNCHER" />
+217-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:49:17-77
+217-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:49:27-74
+218            </intent-filter>
+219        </activity>
+220        <!--
+221        <receiver android:name=".util.OneShotAlarm">
+222   			<intent-filter>
+223   			    <action android:name="android.intent.action.RECEIVE_BOOT_COMPLETED" />
+224           		<action android:name="alarmmanager.app.ALARM_SERVICE" />
+225        	</intent-filter>
+226        </receiver>
+227        -->
+228        <receiver android:name="com.oren.taskofme.util.BackupAlarm" >
+228-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:143:3-148:20
+228-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:143:13-45
+229            <intent-filter>
+229-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:144:7-147:26
+230                <action android:name="android.intent.action.RECEIVE_BOOT_COMPLETED" />
+230-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:145:11-81
+230-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:145:19-78
+231                <action android:name="alarmmanager.app.ALARM_SERVICE" />
+231-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:146:14-70
+231-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:146:22-67
+232            </intent-filter>
+233        </receiver>
+234        <receiver
+234-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:150:3-153:14
+235            android:name="com.oren.taskofme.widget.widget4x1_task"
+235-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:150:13-50
+236            android:exported="false"
+236-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:150:92-116
+237            android:label="@string/app_name4x1_task" >
+237-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:150:51-91
+238            <intent-filter>
+238-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:4-102
+239                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+239-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:19-86
+239-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:27-83
+240            </intent-filter>
+241
+242            <meta-data
+242-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:4-98
+243                android:name="android.appwidget.provider"
+243-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:15-56
+244                android:resource="@xml/widget4x1_task" />
+244-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:57-95
+245        </receiver>
+246        <receiver
+246-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:154:4-157:14
+247            android:name="com.oren.taskofme.widget.widget4x1_calendar"
+247-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:154:14-55
+248            android:exported="false"
+248-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:154:101-125
+249            android:label="@string/app_name4x1_calendar" >
+249-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:154:56-100
+250            <intent-filter>
+250-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:4-102
+251                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+251-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:19-86
+251-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:27-83
+252            </intent-filter>
+253
+254            <meta-data
+254-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:4-98
+255                android:name="android.appwidget.provider"
+255-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:15-56
+256                android:resource="@xml/widget4x1_calendar" />
+256-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:57-95
+257        </receiver>
+258        <receiver
+258-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:158:4-161:14
+259            android:name="com.oren.taskofme.widget.widget4x2_calendar"
+259-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:158:14-55
+260            android:exported="false"
+260-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:158:101-125
+261            android:label="@string/app_name4x2_calendar" >
+261-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:158:56-100
+262            <intent-filter>
+262-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:4-102
+263                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+263-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:19-86
+263-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:27-83
+264            </intent-filter>
+265
+266            <meta-data
+266-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:4-98
+267                android:name="android.appwidget.provider"
+267-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:15-56
+268                android:resource="@xml/widget4x2_calendar" />
+268-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:57-95
+269        </receiver>
+270        <receiver
+270-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:162:3-165:14
+271            android:name="com.oren.taskofme.widget.widget5x2_calendar"
+271-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:162:13-54
+272            android:exported="false"
+272-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:162:100-124
+273            android:label="@string/app_name5x2_calendar" >
+273-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:162:55-99
+274            <intent-filter>
+274-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:4-102
+275                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+275-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:19-86
+275-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:27-83
+276            </intent-filter>
+277
+278            <meta-data
+278-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:4-98
+279                android:name="android.appwidget.provider"
+279-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:15-56
+280                android:resource="@xml/widget5x2_calendar" />
+280-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:57-95
+281        </receiver>
+282        <receiver
+282-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:166:4-174:14
+283            android:name="com.oren.taskofme.widget.widget4x3_calendar"
+283-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:166:14-55
+284            android:exported="false"
+284-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:166:101-125
+285            android:label="@string/app_name4x3_calendar" >
+285-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:166:56-100
+286            <intent-filter>
+286-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:167:4-172:20
+287                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+287-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:19-86
+287-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:27-83
+288                <action android:name="wid4x3.now.CLICK" />
+288-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:169:8-50
+288-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:169:16-47
+289                <action android:name="wid4x3.pf.CLICK" />
+289-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:170:8-49
+289-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:170:16-46
+290                <action android:name="wid4x3.ff.CLICK" />
+290-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:171:8-49
+290-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:171:16-46
+291            </intent-filter>
+292
+293            <meta-data
+293-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:4-98
+294                android:name="android.appwidget.provider"
+294-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:15-56
+295                android:resource="@xml/widget4x3_calendar" />
+295-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:57-95
+296        </receiver>
+297        <receiver
+297-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:175:4-183:14
+298            android:name="com.oren.taskofme.widget.widget3x3_calendar"
+298-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:175:14-55
+299            android:exported="false"
+299-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:175:101-125
+300            android:label="@string/app_name3x3_calendar" >
+300-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:175:56-100
+301            <intent-filter>
+301-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:176:4-181:20
+302                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+302-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:19-86
+302-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:27-83
+303                <action android:name="wid3x3.now.CLICK" />
+303-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:178:8-50
+303-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:178:16-47
+304                <action android:name="wid3x3.pf.CLICK" />
+304-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:179:8-49
+304-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:179:16-46
+305                <action android:name="wid3x3.ff.CLICK" />
+305-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:180:8-49
+305-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:180:16-46
+306            </intent-filter>
+307
+308            <meta-data
+308-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:4-98
+309                android:name="android.appwidget.provider"
+309-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:15-56
+310                android:resource="@xml/widget3x3_calendar" />
+310-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:57-95
+311        </receiver>
+312        <receiver
+312-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:184:4-192:14
+313            android:name="com.oren.taskofme.widget.widget4x4_calendar"
+313-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:184:14-55
+314            android:exported="false"
+314-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:184:101-125
+315            android:label="@string/app_name4x4_calendar" >
+315-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:184:56-100
+316            <intent-filter>
+316-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:185:4-190:20
+317                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+317-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:19-86
+317-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:27-83
+318                <action android:name="wid4x4.now.CLICK" />
+318-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:187:8-50
+318-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:187:16-47
+319                <action android:name="wid4x4.pf.CLICK" />
+319-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:188:8-49
+319-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:188:16-46
+320                <action android:name="wid4x4.ff.CLICK" />
+320-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:189:8-49
+320-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:189:16-46
+321            </intent-filter>
+322
+323            <meta-data
+323-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:4-98
+324                android:name="android.appwidget.provider"
+324-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:15-56
+325                android:resource="@xml/widget4x4_calendar" />
+325-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:57-95
+326        </receiver>
+327        <receiver
+327-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:193:4-201:14
+328            android:name="com.oren.taskofme.widget.widget5x4_calendar"
+328-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:193:14-55
+329            android:exported="false"
+329-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:193:101-125
+330            android:label="@string/app_name5x4_calendar" >
+330-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:193:56-100
+331            <intent-filter>
+331-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:194:4-199:20
+332                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+332-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:19-86
+332-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:27-83
+333                <action android:name="wid5x4.now.CLICK" />
+333-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:196:8-50
+333-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:196:16-47
+334                <action android:name="wid5x4.pf.CLICK" />
+334-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:197:8-49
+334-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:197:16-46
+335                <action android:name="wid5x4.ff.CLICK" />
+335-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:198:8-49
+335-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:198:16-46
+336            </intent-filter>
+337
+338            <meta-data
+338-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:4-98
+339                android:name="android.appwidget.provider"
+339-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:15-56
+340                android:resource="@xml/widget5x4_calendar" />
+340-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:57-95
+341        </receiver>
+342        <receiver
+342-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:202:4-210:14
+343            android:name="com.oren.taskofme.widget.widget5x5_calendar"
+343-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:202:14-55
+344            android:exported="false"
+344-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:202:101-125
+345            android:label="@string/app_name5x5_calendar" >
+345-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:202:56-100
+346            <intent-filter>
+346-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:203:4-208:20
+347                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+347-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:19-86
+347-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:27-83
+348                <action android:name="wid5x5.now.CLICK" />
+348-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:205:8-50
+348-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:205:16-47
+349                <action android:name="wid5x5.pf.CLICK" />
+349-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:206:8-49
+349-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:206:16-46
+350                <action android:name="wid5x5.ff.CLICK" />
+350-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:207:8-49
+350-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:207:16-46
+351            </intent-filter>
+352
+353            <meta-data
+353-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:4-98
+354                android:name="android.appwidget.provider"
+354-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:15-56
+355                android:resource="@xml/widget5x5_calendar" />
+355-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:57-95
+356        </receiver>
+357        <receiver
+357-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:211:3-214:14
+358            android:name="com.oren.taskofme.widget.widget1x1"
+358-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:211:13-45
+359            android:exported="false"
+359-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:211:82-106
+360            android:label="@string/app_name1x1" >
+360-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:211:46-81
+361            <intent-filter>
+361-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:4-102
+362                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+362-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:19-86
+362-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:27-83
+363            </intent-filter>
+364
+365            <meta-data
+365-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:4-98
+366                android:name="android.appwidget.provider"
+366-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:15-56
+367                android:resource="@xml/widget1x1" />
+367-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:57-95
+368        </receiver>
+369        <receiver
+369-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:215:4-218:14
+370            android:name="com.oren.taskofme.widget.widget2x1"
+370-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:215:14-46
+371            android:exported="false"
+371-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:215:83-107
+372            android:label="@string/app_name2x1" >
+372-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:215:47-82
+373            <intent-filter>
+373-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:4-102
+374                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+374-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:19-86
+374-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:27-83
+375            </intent-filter>
+376
+377            <meta-data
+377-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:4-98
+378                android:name="android.appwidget.provider"
+378-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:15-56
+379                android:resource="@xml/widget2x1" />
+379-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:57-95
+380        </receiver>
+381        <receiver
+381-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:219:4-222:14
+382            android:name="com.oren.taskofme.widget.ido_provider"
+382-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:219:14-49
+383            android:exported="false"
+383-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:219:86-110
+384            android:label="@string/app_name2x2" >
+384-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:219:50-85
+385            <intent-filter>
+385-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:4-102
+386                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+386-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:19-86
+386-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:27-83
+387            </intent-filter>
+388
+389            <meta-data
+389-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:4-98
+390                android:name="android.appwidget.provider"
+390-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:15-56
+391                android:resource="@xml/ido_provider2x2" />
+391-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:57-95
+392        </receiver>
+393        <receiver
+393-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:223:4-226:14
+394            android:name="com.oren.taskofme.widget.ido_provider2x3"
+394-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:223:14-52
+395            android:exported="false"
+395-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:223:89-113
+396            android:label="@string/app_name2x3" >
+396-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:223:53-88
+397            <intent-filter>
+397-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:4-102
+398                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+398-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:19-86
+398-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:27-83
+399            </intent-filter>
+400
+401            <meta-data
+401-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:4-98
+402                android:name="android.appwidget.provider"
+402-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:15-56
+403                android:resource="@xml/ido_provider2x3" />
+403-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:57-95
+404        </receiver>
+405        <receiver
+405-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:227:4-230:14
+406            android:name="com.oren.taskofme.widget.ido_provider2x4"
+406-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:227:14-52
+407            android:exported="false"
+407-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:227:89-113
+408            android:label="@string/app_name2x4" >
+408-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:227:53-88
+409            <intent-filter>
+409-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:4-102
+410                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+410-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:19-86
+410-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:151:27-83
+411            </intent-filter>
+412
+413            <meta-data
+413-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:4-98
+414                android:name="android.appwidget.provider"
+414-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:15-56
+415                android:resource="@xml/ido_provider2x4" />
+415-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:152:57-95
+416        </receiver>
+417        <!-- <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/> -->
+418        <activity
+418-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:232:9-233:125
+419            android:name="com.google.android.gms.ads.AdActivity"
+419-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:232:19-71
+420            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+420-->C:\Users\cjseok\StudioProjects\TaskOfMe\app\src\main\AndroidManifest.xml:233:14-123
+421            android:exported="false"
+421-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\ed264e756d6188f1cbb06151c8950c4b\play-services-ads-lite-12.0.1\AndroidManifest.xml:32:13-37
+422            android:theme="@android:style/Theme.Translucent" />
+422-->[com.google.android.gms:play-services-ads-lite:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\ed264e756d6188f1cbb06151c8950c4b\play-services-ads-lite-12.0.1\AndroidManifest.xml:33:13-61
+423
+424        <!-- Interstitial 광고를 사용하기 위해서는 반드시 이 부분을 추가해야한다. -->
+425        <!-- <activity -->
+426        <!-- android:name="net.daum.adam.publisher.impl.AdInterstitialActivity" -->
+427        <!-- android:configChanges="orientation|keyboardHidden" -->
+428        <!-- android:screenOrientation="portrait" /> -->
+429        <receiver
+429-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6f8b8db23ff3d76f8eeb5a589a47aa84\play-services-analytics-12.0.1\AndroidManifest.xml:30:9-34:20
+430            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+430-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6f8b8db23ff3d76f8eeb5a589a47aa84\play-services-analytics-12.0.1\AndroidManifest.xml:31:13-78
+431            android:enabled="true"
+431-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6f8b8db23ff3d76f8eeb5a589a47aa84\play-services-analytics-12.0.1\AndroidManifest.xml:32:13-35
+432            android:exported="false" >
+432-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6f8b8db23ff3d76f8eeb5a589a47aa84\play-services-analytics-12.0.1\AndroidManifest.xml:33:13-37
+433        </receiver>
+434
+435        <service
+435-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6f8b8db23ff3d76f8eeb5a589a47aa84\play-services-analytics-12.0.1\AndroidManifest.xml:36:9-39:40
+436            android:name="com.google.android.gms.analytics.AnalyticsService"
+436-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6f8b8db23ff3d76f8eeb5a589a47aa84\play-services-analytics-12.0.1\AndroidManifest.xml:37:13-77
+437            android:enabled="true"
+437-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6f8b8db23ff3d76f8eeb5a589a47aa84\play-services-analytics-12.0.1\AndroidManifest.xml:38:13-35
+438            android:exported="false" />
+438-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6f8b8db23ff3d76f8eeb5a589a47aa84\play-services-analytics-12.0.1\AndroidManifest.xml:39:13-37
+439        <service
+439-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6f8b8db23ff3d76f8eeb5a589a47aa84\play-services-analytics-12.0.1\AndroidManifest.xml:40:9-44:72
+440            android:name="com.google.android.gms.analytics.AnalyticsJobService"
+440-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6f8b8db23ff3d76f8eeb5a589a47aa84\play-services-analytics-12.0.1\AndroidManifest.xml:41:13-80
+441            android:enabled="true"
+441-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6f8b8db23ff3d76f8eeb5a589a47aa84\play-services-analytics-12.0.1\AndroidManifest.xml:42:13-35
+442            android:exported="false"
+442-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6f8b8db23ff3d76f8eeb5a589a47aa84\play-services-analytics-12.0.1\AndroidManifest.xml:43:13-37
+443            android:permission="android.permission.BIND_JOB_SERVICE" />
+443-->[com.google.android.gms:play-services-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6f8b8db23ff3d76f8eeb5a589a47aa84\play-services-analytics-12.0.1\AndroidManifest.xml:44:13-69
+444
+445        <activity
+445-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\d085232eee3b1f929fd2242078e1300e\play-services-appinvite-12.0.1\AndroidManifest.xml:25:9-34:20
+446            android:name="com.google.android.gms.appinvite.PreviewActivity"
+446-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\d085232eee3b1f929fd2242078e1300e\play-services-appinvite-12.0.1\AndroidManifest.xml:26:13-76
+447            android:exported="true"
+447-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\d085232eee3b1f929fd2242078e1300e\play-services-appinvite-12.0.1\AndroidManifest.xml:27:13-36
+448            android:theme="@style/Theme.AppInvite.Preview" >
+448-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\d085232eee3b1f929fd2242078e1300e\play-services-appinvite-12.0.1\AndroidManifest.xml:28:13-59
+449            <intent-filter>
+449-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\d085232eee3b1f929fd2242078e1300e\play-services-appinvite-12.0.1\AndroidManifest.xml:29:13-33:29
+450                <action android:name="com.google.android.gms.appinvite.ACTION_PREVIEW" />
+450-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\d085232eee3b1f929fd2242078e1300e\play-services-appinvite-12.0.1\AndroidManifest.xml:30:17-90
+450-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\d085232eee3b1f929fd2242078e1300e\play-services-appinvite-12.0.1\AndroidManifest.xml:30:25-87
+451
+452                <category android:name="android.intent.category.DEFAULT" />
+452-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\d085232eee3b1f929fd2242078e1300e\play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
+452-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\d085232eee3b1f929fd2242078e1300e\play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
+453            </intent-filter>
+454        </activity>
+455        <activity
+455-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\1b2588cea11b55522eb27e5ef8e93445\play-services-auth-12.0.1\AndroidManifest.xml:23:9-27:75
+456            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+456-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\1b2588cea11b55522eb27e5ef8e93445\play-services-auth-12.0.1\AndroidManifest.xml:24:13-93
+457            android:excludeFromRecents="true"
+457-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\1b2588cea11b55522eb27e5ef8e93445\play-services-auth-12.0.1\AndroidManifest.xml:25:13-46
+458            android:exported="false"
+458-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\1b2588cea11b55522eb27e5ef8e93445\play-services-auth-12.0.1\AndroidManifest.xml:26:13-37
+459            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+459-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\1b2588cea11b55522eb27e5ef8e93445\play-services-auth-12.0.1\AndroidManifest.xml:27:13-72
+460        <!--
+461            Service handling Google Sign-In user revocation. For apps that do not integrate with
+462            Google Sign-In, this service will never be started.
+463        -->
+464        <service
+464-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\1b2588cea11b55522eb27e5ef8e93445\play-services-auth-12.0.1\AndroidManifest.xml:33:9-36:110
+465            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+465-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\1b2588cea11b55522eb27e5ef8e93445\play-services-auth-12.0.1\AndroidManifest.xml:34:13-89
+466            android:exported="true"
+466-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\1b2588cea11b55522eb27e5ef8e93445\play-services-auth-12.0.1\AndroidManifest.xml:35:13-36
+467            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+467-->[com.google.android.gms:play-services-auth:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\1b2588cea11b55522eb27e5ef8e93445\play-services-auth-12.0.1\AndroidManifest.xml:36:13-107
+468
+469        <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
+469-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\8fbfa79eee77cfb9a9dd0f3c356be966\play-services-cast-framework-12.0.1\AndroidManifest.xml:8:9-100
+469-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\8fbfa79eee77cfb9a9dd0f3c356be966\play-services-cast-framework-12.0.1\AndroidManifest.xml:8:19-97
+470
+471        <service android:name="com.google.android.gms.cast.framework.media.MediaNotificationService" />
+471-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\8fbfa79eee77cfb9a9dd0f3c356be966\play-services-cast-framework-12.0.1\AndroidManifest.xml:10:9-104
+471-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\8fbfa79eee77cfb9a9dd0f3c356be966\play-services-cast-framework-12.0.1\AndroidManifest.xml:10:18-101
+472        <service android:name="com.google.android.gms.cast.framework.ReconnectionService" />
+472-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\8fbfa79eee77cfb9a9dd0f3c356be966\play-services-cast-framework-12.0.1\AndroidManifest.xml:11:9-93
+472-->[com.google.android.gms:play-services-cast-framework:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\8fbfa79eee77cfb9a9dd0f3c356be966\play-services-cast-framework-12.0.1\AndroidManifest.xml:11:18-90
+473
+474        <activity
+474-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\00e865e6b0a81716ea70af8ee54ce6ee\firebase-auth-12.0.1\AndroidManifest.xml:23:9-29:75
+475            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+475-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\00e865e6b0a81716ea70af8ee54ce6ee\firebase-auth-12.0.1\AndroidManifest.xml:24:13-85
+476            android:excludeFromRecents="true"
+476-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\00e865e6b0a81716ea70af8ee54ce6ee\firebase-auth-12.0.1\AndroidManifest.xml:25:13-46
+477            android:exported="true"
+477-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\00e865e6b0a81716ea70af8ee54ce6ee\firebase-auth-12.0.1\AndroidManifest.xml:26:13-36
+478            android:launchMode="singleInstance"
+478-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\00e865e6b0a81716ea70af8ee54ce6ee\firebase-auth-12.0.1\AndroidManifest.xml:27:13-48
+479            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+479-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\00e865e6b0a81716ea70af8ee54ce6ee\firebase-auth-12.0.1\AndroidManifest.xml:28:13-102
+480            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+480-->[com.google.firebase:firebase-auth:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\00e865e6b0a81716ea70af8ee54ce6ee\firebase-auth-12.0.1\AndroidManifest.xml:29:13-72
+481        <activity
+481-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\bf7077cad6c10dcf78fb03bb39aa8325\play-services-base-12.0.1\AndroidManifest.xml:23:9-26:75
+482            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+482-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\bf7077cad6c10dcf78fb03bb39aa8325\play-services-base-12.0.1\AndroidManifest.xml:24:13-79
+483            android:exported="false"
+483-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\bf7077cad6c10dcf78fb03bb39aa8325\play-services-base-12.0.1\AndroidManifest.xml:25:13-37
+484            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+484-->[com.google.android.gms:play-services-base:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\bf7077cad6c10dcf78fb03bb39aa8325\play-services-base-12.0.1\AndroidManifest.xml:26:13-72
+485        <!--
+486             FirebaseMessagingService performs security checks at runtime,
+487             no need for explicit permissions despite exported="true"
+488        -->
+489        <service
+489-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6625828372cbb63a95be3d124cafad69\firebase-messaging-12.0.1\AndroidManifest.xml:28:9-34:19
+490            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+490-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6625828372cbb63a95be3d124cafad69\firebase-messaging-12.0.1\AndroidManifest.xml:29:13-82
+491            android:exported="true" >
+491-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6625828372cbb63a95be3d124cafad69\firebase-messaging-12.0.1\AndroidManifest.xml:30:13-36
+492            <intent-filter android:priority="-500" >
+492-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6625828372cbb63a95be3d124cafad69\firebase-messaging-12.0.1\AndroidManifest.xml:31:13-33:29
+492-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6625828372cbb63a95be3d124cafad69\firebase-messaging-12.0.1\AndroidManifest.xml:31:28-51
+493                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+493-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6625828372cbb63a95be3d124cafad69\firebase-messaging-12.0.1\AndroidManifest.xml:32:17-78
+493-->[com.google.firebase:firebase-messaging:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\6625828372cbb63a95be3d124cafad69\firebase-messaging-12.0.1\AndroidManifest.xml:32:25-75
+494            </intent-filter>
+495        </service>
+496        <service
+496-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\e8eeb094202359196a62458bf1d0fdda\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:27:9-30:40
+497            android:name="com.google.android.gms.tagmanager.TagManagerService"
+497-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\e8eeb094202359196a62458bf1d0fdda\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:28:13-79
+498            android:enabled="true"
+498-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\e8eeb094202359196a62458bf1d0fdda\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:29:13-35
+499            android:exported="false" />
+499-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\e8eeb094202359196a62458bf1d0fdda\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:30:13-37
+500
+501        <activity
+501-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\e8eeb094202359196a62458bf1d0fdda\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:32:9-44:20
+502            android:name="com.google.android.gms.tagmanager.TagManagerPreviewActivity"
+502-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\e8eeb094202359196a62458bf1d0fdda\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:33:13-87
+503            android:exported="true"
+503-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\e8eeb094202359196a62458bf1d0fdda\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:34:13-36
+504            android:noHistory="true" > <!-- optional, removes the previewActivity from the activity stack. -->
+504-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\e8eeb094202359196a62458bf1d0fdda\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:35:13-37
+505            <intent-filter>
+505-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\e8eeb094202359196a62458bf1d0fdda\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:36:13-43:29
+506                <data android:scheme="tagmanager.c.com.oren.taskofme" />
+506-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\e8eeb094202359196a62458bf1d0fdda\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:17-72
+506-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\e8eeb094202359196a62458bf1d0fdda\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:37:23-69
+507
+508                <action android:name="android.intent.action.VIEW" />
+508-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\e8eeb094202359196a62458bf1d0fdda\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:17-69
+508-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\e8eeb094202359196a62458bf1d0fdda\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:39:25-66
+509
+510                <category android:name="android.intent.category.DEFAULT" />
+510-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\d085232eee3b1f929fd2242078e1300e\play-services-appinvite-12.0.1\AndroidManifest.xml:32:17-76
+510-->[com.google.android.gms:play-services-appinvite:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\d085232eee3b1f929fd2242078e1300e\play-services-appinvite-12.0.1\AndroidManifest.xml:32:27-73
+511                <category android:name="android.intent.category.BROWSABLE" />
+511-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\e8eeb094202359196a62458bf1d0fdda\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:17-78
+511-->[com.google.android.gms:play-services-tagmanager-api:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\e8eeb094202359196a62458bf1d0fdda\play-services-tagmanager-api-12.0.1\AndroidManifest.xml:42:27-75
+512            </intent-filter>
+513        </activity>
+514
+515        <receiver
+515-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:28:9-32:20
+516            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+516-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:29:13-85
+517            android:enabled="true"
+517-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:30:13-35
+518            android:exported="false" >
+518-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:31:13-37
+519        </receiver>
+520        <receiver
+520-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:33:9-41:20
+521            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+521-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:34:13-100
+522            android:enabled="true"
+522-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:35:13-35
+523            android:exported="true"
+523-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:36:13-36
+524            android:permission="android.permission.INSTALL_PACKAGES" >
+524-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:37:13-69
+525            <intent-filter>
+525-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:38:13-40:29
+526                <action android:name="com.android.vending.INSTALL_REFERRER" />
+526-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:39:17-79
+526-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:39:25-76
+527            </intent-filter>
+528        </receiver>
+529
+530        <service
+530-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:43:9-46:40
+531            android:name="com.google.android.gms.measurement.AppMeasurementService"
+531-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:44:13-84
+532            android:enabled="true"
+532-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:45:13-35
+533            android:exported="false" />
+533-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:46:13-37
+534        <service
+534-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:47:9-51:72
+535            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+535-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:48:13-87
+536            android:enabled="true"
+536-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:49:13-35
+537            android:exported="false"
+537-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:50:13-37
+538            android:permission="android.permission.BIND_JOB_SERVICE" />
+538-->[com.google.firebase:firebase-analytics:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\a71806269a392ef2e443d7e76a30a93a\firebase-analytics-12.0.1\AndroidManifest.xml:51:13-69
+539
+540        <receiver
+540-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:35:9-44:20
+541            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+541-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:36:13-78
+542            android:exported="true"
+542-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:37:13-36
+543            android:permission="com.google.android.c2dm.permission.SEND" >
+543-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:38:13-73
+544            <intent-filter>
+544-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:39:13-43:29
+545                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+545-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:40:17-81
+545-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:40:25-78
+546
+547                <category android:name="com.oren.taskofme" />
+547-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:42:17-61
+547-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:42:27-58
+548            </intent-filter>
+549        </receiver>
+550        <!--
+551             FirebaseInstanceIdService performs security checks at runtime,
+552             no need for explicit permissions despite exported="true"
+553        -->
+554        <service
+554-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:50:9-56:19
+555            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+555-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:51:13-77
+556            android:exported="true" >
+556-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:52:13-36
+557            <intent-filter android:priority="-500" >
+557-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:53:13-55:29
+557-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:53:28-51
+558                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+558-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:54:17-80
+558-->[com.google.firebase:firebase-iid:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\4df3f0383ea153939e2465bd623e6796\firebase-iid-12.0.1\AndroidManifest.xml:54:25-77
+559            </intent-filter>
+560        </service>
+561
+562        <provider
+562-->[com.google.firebase:firebase-common:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\ec246e9e3148fae07217db7efeb0e424\firebase-common-12.0.1\AndroidManifest.xml:8:9-12:39
+563            android:name="com.google.firebase.provider.FirebaseInitProvider"
+563-->[com.google.firebase:firebase-common:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\ec246e9e3148fae07217db7efeb0e424\firebase-common-12.0.1\AndroidManifest.xml:9:13-77
+564            android:authorities="com.oren.taskofme.firebaseinitprovider"
+564-->[com.google.firebase:firebase-common:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\ec246e9e3148fae07217db7efeb0e424\firebase-common-12.0.1\AndroidManifest.xml:10:13-72
+565            android:exported="false"
+565-->[com.google.firebase:firebase-common:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\ec246e9e3148fae07217db7efeb0e424\firebase-common-12.0.1\AndroidManifest.xml:11:13-37
+566            android:initOrder="100" />
+566-->[com.google.firebase:firebase-common:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\ec246e9e3148fae07217db7efeb0e424\firebase-common-12.0.1\AndroidManifest.xml:12:13-36
+567
+568        <meta-data
+568-->[com.google.android.gms:play-services-basement:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\0c83a76516f7ffc6b2149bca1ef8c2c6\play-services-basement-12.0.1\AndroidManifest.xml:23:9-25:69
+569            android:name="com.google.android.gms.version"
+569-->[com.google.android.gms:play-services-basement:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\0c83a76516f7ffc6b2149bca1ef8c2c6\play-services-basement-12.0.1\AndroidManifest.xml:24:13-58
+570            android:value="@integer/google_play_services_version" />
+570-->[com.google.android.gms:play-services-basement:12.0.1] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\0c83a76516f7ffc6b2149bca1ef8c2c6\play-services-basement-12.0.1\AndroidManifest.xml:25:13-66
+571        <meta-data
+571-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\693ee9ce302c47099aac2ebbd07c4cd2\mediarouter-v7-26.1.0\AndroidManifest.xml:23:9-25:38
+572            android:name="android.support.VERSION"
+572-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\693ee9ce302c47099aac2ebbd07c4cd2\mediarouter-v7-26.1.0\AndroidManifest.xml:24:13-51
+573            android:value="26.1.0" />
+573-->[com.android.support:mediarouter-v7:26.1.0] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\693ee9ce302c47099aac2ebbd07c4cd2\mediarouter-v7-26.1.0\AndroidManifest.xml:25:13-35
+574        <meta-data
+574-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:25:9-27:47
+575            android:name="android.arch.lifecycle.VERSION"
+575-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:26:13-58
+576            android:value="27.0.0-SNAPSHOT" />
+576-->[android.arch.lifecycle:runtime:1.0.0] C:\Users\cjseok\.gradle\caches\transforms-2\files-2.1\ad64e64e382a8943e8c32803e67dfeee\runtime-1.0.0\AndroidManifest.xml:27:13-44
+577    </application>
+578
+579</manifest>
